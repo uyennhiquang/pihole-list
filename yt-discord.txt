@@ -1,0 +1,14 @@
+* https://discord.com/api/v9/science xmlhttprequest block
+* https://discord.com/api/v10/science xmlhttprequest block
+* https://discord.com/api/v11/science xmlhttprequest block
+* https://discord.com/api/v12/science xmlhttprequest block
+* https://discord.com/api/v13/science xmlhttprequest block
+* https://discord.com/api/v14/science xmlhttprequest block
+||discord.com/api/*/science
+
+! 2023-07-01 https://www.youtube.com
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+
